@@ -3,7 +3,7 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 
 const corsOptions ={
-    origin: 'https://musicbinge.netlify.app/',
+    origin: '*',
     optionsSuccessStatus:200
 }
 
